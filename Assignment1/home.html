@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zerodha</title>
+  
+</head>
+<body>
+        <div style="display: flex; justify-content: space-between; padding-left: 100px; padding-right: 100px; box-shadow: 2px 1px 2px #eee;">
+            <img class="zerodha-logo" src="./logo.svg" alt="Zerodha logo" height="20px" width="120px" style="padding-top: 20px;" >
+            <div  style="display: flex;">
+                    <div style="padding: 20px;color:#666;cursor: pointer;"> SignUp</div>
+                   <div style="padding: 20px; color:#666; cursor :pointer; ">About</div>
+                    <div style="padding: 20px;color:#666;cursor: pointer;"> Products</div>
+                    <div style="padding: 20px; color:#666; cursor: pointer;">Pricing</div>
+                    <div style="padding: 20px; color:#666; cursor:pointer">Support</div>        
+                
+            </div>
+        </div>
+
+    <div style="display: flex; justify-content: center;">
+        <img src="./landing.png" height=450px width=100%>
+    
+    </div>
+    <div style=" padding-top: 20px; display: flex; justify-content: center; font-weight: 600 ;font-size: 30;"> 
+            <h1>Invest in everything</h1>   
+    </div>
+    <div style=" padding-top: 2px;  display: flex; justify-content: center;font-weight: 300;">
+        <h2>Online platform to invest in stocks, derivatives, mutual funds, and more</h2>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+            <div style="background-color: #387ed1;
+            padding-top:10px; padding-bottom: 10px; padding-left: 30px; padding-right: 30px;
+             color: white; border-radius: 2px; font-size: 20px;cursor: pointer;">Sign Up Now</div>
+    </div>     
+    </div>
+
+    
+    <div  style=" width: 500px; height: 300px; padding: 40px;
+    border: 5px solid gray; margin-top: 20px;" >
+    <div style=" display:flex;justify-content: center; ">
+        <h1> Portfolios Returns</h1>
+    </div >
+   
+        <div style="display:flex; justify-content:left; margin-bottom: 10px; ">
+            <label for="capital">Capital: </label>
+            <input type="number" class="capital" min="100000" max="10000000" />
+        </div>
+        <div style="display:flex; justify-content: space-between; margin-bottom: 10px;">
+            <div>
+                <label for="years">Years: </label>
+                 <input type="number" class="years" min="1" max="100000000" />
+            </div>
+            <div>
+            <label for="returns">Returns: </label>
+            <output type="number" class="returns" />
+             </div>
+        </div>
+          
+        <div>
+            <label for="interest">Interest: </label>
+            <input type="number" class="interest" min="1" max="10000" />
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <div style="background-color: #387ed1;">
+                <button class="calculate-btn" style="background-color: #387ed1;color: white;border-radius: 2px; font-size: 20px;cursor: pointer;padding-top:5px;padding-bottom: 5px;padding-left: 20px;padding-right: 20px;" >Calculate</button>
+            </div>
+           
+        </div>    
+         </div>
+   
+    </div>
+    
+
+    <script src="script.js"></script> 
+
+</body>
+</html>

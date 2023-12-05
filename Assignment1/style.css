@@ -1,0 +1,20 @@
+/* /* 
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+    font-weight: 400;
+} */
+
+  
+/* .navbar 
+img{
+    max-width: 100%;
+    border: none;
+} */ 
